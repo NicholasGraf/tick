@@ -4,7 +4,8 @@
   "description": "Webpack + jQuery Framework",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "select2": "^4.0.8"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.4",
