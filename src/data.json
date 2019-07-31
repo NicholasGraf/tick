@@ -1,0 +1,94 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Arlington",
+      "results": {
+        "result1": 1,
+        "result2": 0,
+        "result3": 2,
+        "result4": 6,
+        "result5": 8
+      }
+    },
+    {
+      "id": 2,
+      "name": "Burmuda",
+      "email": "nick@email.com",
+      "results": {
+        "result1": 2,
+        "result2": 5,
+        "result3": 1,
+        "result4": 4,
+        "result5": 2
+      }
+    },
+    {
+      "id": 3,
+      "name": "Carlsbad",
+      "email": "nick@email.com",
+      "results": {
+        "result1": 0,
+        "result2": 6,
+        "result3": 8,
+        "result4": 2,
+        "result5": 1
+      }
+    },
+    {
+      "id": 4,
+      "name": "Denver",
+      "email": "nick@email.com",
+      "results": {
+        "result1": 0,
+        "result2": 6,
+        "result3": 8,
+        "result4": 2,
+        "result5": 1
+      }
+    },
+    {
+      "id": 5,
+      "name": "Frankfurt",
+      "email": "nick@email.com",
+      "results": {
+        "result1": 0,
+        "result2": 6,
+        "result3": 8,
+        "result4": 2,
+        "result5": 1
+      }
+    },
+    {
+      "id": 6,
+      "name": "Galviston",
+      "email": "nick@email.com",
+      "results": {
+        "result1": 0,
+        "result2": 6,
+        "result3": 8,
+        "result4": 2,
+        "result5": 1
+      }
+    },
+    {
+      "id": 7,
+      "name": "Honolulu",
+      "email": "nick@email.com",
+      "results": {
+        "result1": 0,
+        "result2": 6,
+        "result3": 8,
+        "result4": 2,
+        "result5": 1
+      }
+    }
+  ],
+
+  "user": {
+    "name": "Nick",
+    "email": "nick@email.com",
+    "selected": [1, 2, 4, 6],
+    "size": 3
+  }
+}

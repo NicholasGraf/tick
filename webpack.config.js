@@ -2,11 +2,13 @@ const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+var __dirname = path.resolve();
+
 module.exports = {
     mode: 'development',
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, 'dist'), // output directory
+        path: path.resolve(__dirname, 'dist'),
         // filename: "[name].js" // name of the generated bundle
         filename: "index.js" // name of the generated bundle
     },
@@ -32,7 +34,8 @@ module.exports = {
             inject: "body"
         }),
         new CopyPlugin([
-            { from: 'src/img/', to: 'img/' }
+            { from: 'src/img/', to: 'img/' },
+            { from: "src/data.json", to: '' }
         ])
     ]
 };
